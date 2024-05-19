@@ -43,10 +43,6 @@ img {
   height: 696px;
 }
 
-.gallery-link {
-  /* pointer-events: none; */
-}
-
 .gallery-image {
   width: 360px;
   height: 200px;
