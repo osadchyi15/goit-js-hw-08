@@ -37,21 +37,19 @@ img {
   background: #fff;
   justify-content: center;
   align-items: center;
-  row-gap: 24 px;
-  column-gap: 24px;
+  gap: 24px;
   width: 1440px;
   height: 696px;
+  padding: 156px 24px;
 }
 
 .gallery-image {
   width: 360px;
   height: 200px;
   object-fit: cover;
-  filter: grayscale(100%);
   transition: 0.5s;
 }
 
 .gallery-image:hover {
-  filter: grayscale(0);
   transform: scale(1.1);
 }
